@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: white;
+}
+
+.fa-fire {
+    color: #D82E2F;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 1.25rem;
+    padding: 6px 12px;
+}
+
+.navbar-brand:hover {
+    color: #D82E2F;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #D82E2F;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.navbar-toggler:focus-visible {
+    outline: none;
+}
+
+.btn-border {
+    border-radius: 0;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.hero-heading {
+    background-image: url("https://template79832.motopreview.com/mt-demo/79800/79832/mt-content/uploads/2019/04/mt-1802-slider-img02.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 436px;
+    float: none;
+    list-style: none;
+
+    width: 100vw;
+    display: block;
+    padding: 20px 10px;
+    padding-top: 12rem;
+}
+
+
+.title {
+    color: white;
+}
+
+.why-donate {
+    margin: 2rem;
+    height: 300px;
+    background-color: #d9d6d6;
+    padding: 2rem 3rem;
+    border-radius: 6rem;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 10rem;
+}
+
+
+
+.why-donate-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.why-donate-text-title h1 {
+    font-size: 1.5rem;
+}
+
+.form-section {
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-img img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.form-title,
+.form-subtitle {
+    text-align: center;
+    word-wrap: none;
+}
+
+.blood-form {
+    margin: 6px 12px;
+}
+
+footer {
+    background-color: black;
+
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.icons a {
+    padding: 0 10px;
+}
+
+.fa-heart {
+    color: #D82E2F;
+}
+
+
+/* media */
+@media screen and (min-width: 700px) {
+    nav {
+        font-size: 1.25rem;
+        padding-top: 20px !important;
+    }
+
+    main {
+        margin-top: 4rem;
+    }
+
+    .hero-heading {
+        padding-left: 4rem;
+        padding-top: 6rem;
+    }
+
+    .hero-heading button {
+        font-size: 1.5rem;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .why-donate {
+        gap: 2.5rem;
+    }
+
+    .why-donate-img img {
+        width: 300px;
+        height: 350px;
+        border-radius: 6rem;
+    }
+
+    .form-section {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .form-img img {
+        width: 300px;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .form-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .blood-form {
+        border: none;
+        padding: 12px 12px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .why-donate-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        margin-top: 6rem;
+    }
+
+    .hero-heading {
+        padding-left: 6rem;
+        padding-top: 12rem;
+        height: 600px;
+    }
+
+    .title h1 {
+        font-size: 5rem;
+    }
+
+    .why-donate {
+        margin: 3rem 6rem;
+    }
+
+    .why-donate-text {
+        gap: 3rem;
+    }
+
+    .why-donate-text-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .why-donate-img img {
+        width: 400px;
+        height: 450px;
+        border-radius: 6rem;
+    }
+
+    .form-section {
+        margin: 2rem 6rem;
+        gap: 5rem;
+    }
+
+    .form-img img {
+        width: 500px;
+        height: 550px;
+        border-radius: 5px;
+    }
+
+    .form-title {
+        margin-top: 1.5rem;
+    }
+
+    .blood-form {
+        border: none;
+        padding: 12px 12px;
+        margin: 0 6rem;
+
+    }
+
+    .icon-lg {
+        font-size: 1.5rem;
+    }
+}
